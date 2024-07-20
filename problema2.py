@@ -1,5 +1,5 @@
-consumo = float(input("Cuantó fue su consumo en el resturante: "))
-porcentaje_propina = float(input("Percentaje de propia que sea dejar: "))
-propina = consumo * porcentaje_propina
+consumo = float(input("Cuantó costo la comida? "))
+porcentaje_propina = float(input("Que porcentaje de propia desea dejar? "))
+propina = consumo * porcentaje_propina/100
 
-print(f"Propina es {propina}")
+print(f"Propina es {propina:.2f}")

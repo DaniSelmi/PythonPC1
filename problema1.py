@@ -1,2 +1,2 @@
-a = input("Hola ")
-print("Hola "+a)
+a = input("Introduce tu nombre: ")
+print("Hola "+ a + "!")
